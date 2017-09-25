@@ -1,22 +1,38 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.multiThreadMe</groupId>
-  <artifactId>myMultiThread</artifactId>
-  <version>2017multiThread</version>
-  <packaging>pom</packaging>
+	<groupId>com.multiThreadMe</groupId>
+	<artifactId>myMultiThread</artifactId>
+	<version>2017multiThread</version>
+	<packaging>pom</packaging>
 
-  <name>myMultiThread</name>
-  <url>http://maven.apache.org</url>
+	<name>myMultiThread</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
-  <modules>
-  	<module>myMultiThreadLock</module>
-  	<module>myMultiThreadProj</module>
-  	<module>myMultiThreadTrans</module>
-  </modules>
+	<modules>
+		<module>myMultiThreadLock</module>
+		<module>myMultiThreadProj</module>
+		<module>myMultiThreadTrans</module>
+	</modules>
+	<build>
+		<plugins>
+			<!-- 编译的时候使用JDK8和UTF8编码 , -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.0</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<finalName>amqProducer</finalName>
+		</plugins>
+	</build>
 </project>
