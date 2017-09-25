@@ -19,6 +19,16 @@
 		<module>myMultiThreadProj</module>
 		<module>myMultiThreadTrans</module>
 	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.10</version>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<build>
 		<plugins>
 			<!-- 编译的时候使用JDK8和UTF8编码 , -->
