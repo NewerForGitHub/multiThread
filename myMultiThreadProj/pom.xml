@@ -7,9 +7,7 @@
     <artifactId>myMultiThread</artifactId>
     <version>2017multiThread</version>
   </parent>
-  <groupId>com.multiThreadMe</groupId>
   <artifactId>myMultiThreadProj</artifactId>
-  <version>2017multiThread</version>
   <name>myMultiThreadProj</name>
   <url>http://maven.apache.org</url>
   <properties>
