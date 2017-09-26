@@ -2,19 +2,21 @@ package com.mySuspend;
 
 public class MyThread extends Thread {
 
-	private long i=0;
-	public long getI() {
-		return i;
-	}
-	public void setI(long i) {
-		this.i = i;
-	}
+    private long i = 0;
 
-	@Override
-	public void run() {
-		while(true) {
-			i++;
-		}
-	}
-	
+    public long getI() {
+        return this.i;
+    }
+
+    public void setI(long i) {
+        this.i = i;
+    }
+
+    @Override
+    public void run() {
+        while (true) {
+            this.i++;
+        }
+    }
+
 }

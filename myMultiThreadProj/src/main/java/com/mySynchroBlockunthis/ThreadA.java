@@ -2,15 +2,15 @@ package com.mySynchroBlockunthis;
 
 public class ThreadA extends Thread {
 
-	private Task task;
+    private Task task;
 
-	public ThreadA(Task task) {
-		this.task = task;
-	}
+    public ThreadA(Task task) {
+        this.task = task;
+    }
 
-	@Override
-	public void run() {
-		task.doLongTimeTask();
-	}
+    @Override
+    public void run() {
+        this.task.doLongTimeTask();
+    }
 
 }
