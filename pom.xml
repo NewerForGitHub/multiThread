@@ -42,7 +42,7 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			<finalName>amqProducer</finalName>
+			<finalName>multiThread</finalName>
 		</plugins>
 	</build>
 </project>
