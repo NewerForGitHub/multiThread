@@ -17,6 +17,7 @@
 	<modules>
 		<module>myMultiThreadLock</module>
 		<module>myMultiThreadProj</module>
+		<module>myMultiThreadSingleton</module>
 		<module>myMultiThreadTimer</module>
 		<module>myMultiThreadTrans</module>
 	</modules>
