@@ -10,7 +10,7 @@ public class Singleton {
 
     public static Singleton getInstance() {
         //立即加载
-        //缺点：不能有其他实例变量，因为该方法没有同步设置，可能会出现线程安全问题
+        //缺点：序列化时不能保证单例性
         return SingletonHandler.singleton;
     }
 }
