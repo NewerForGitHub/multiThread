@@ -21,6 +21,7 @@
 		<module>myMultiThreadSingleton</module>
 		<module>myMultiThreadTimer</module>
 		<module>myMultiThreadTrans</module>
+		<module>myJUCProject</module>
 	</modules>
 	<dependencyManagement>
 		<dependencies>
